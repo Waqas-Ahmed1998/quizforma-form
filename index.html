@@ -8,75 +8,56 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Anton&family=Anybody:ital,wght@1,300;1,400&family=Changa:wght@500&family=Dancing+Script:wght@400;500;600;700&family=Domine:wght@400;500;700&family=Fjalla+One&family=Grape+Nuts&family=Inter:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Oswald:wght@300;400;500;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,500;0,600;0,700;1,300;1,400&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Ranga:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Rubik+Bubbles&family=Send+Flowers&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&family=Tajawal&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&family=Vazirmatn:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Anybody:ital,wght@1,300;1,400&family=Changa:wght@500&family=Dancing+Script:wght@400;500;600;700&family=Domine:wght@400;500;700&family=Fjalla+One&family=Francois+One&family=Grape+Nuts&family=Inter:wght@100;200;300;400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Oswald:wght@300;400;500;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,300;1,400&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Ranga:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Rubik+Bubbles&family=Send+Flowers&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&family=Tajawal&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&family=Vazirmatn:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./dist/styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <title>quiz-form</title>
 </head>
 
-<body class="  overlay ">
-  <img src="./img/bg.png" class="absolute object-cover top-0 left-0 w-full h-full" alt="">
-  <div class="flex relative flex-col mx-auto  items-center mt-6  overflow-x-hidden ">
-
-
+<body class="  bg-[#F4F5F7] ">
+  <div class="flex justify-center w-full p-10 h-screen  ">
     <div
-      class="mx-auto max-w-[1170px] py-7 mt-10 rounded-sm md:mt-14 bg-[#292929]/50 relative [z-index:3]    items-center justify-center     ">
+      class="w-[670px] bg-white overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-slate-600 rounded-[6px] shadow-lg">
 
-
-      <div
-        class=" md:p-0 lg:px-10 bg-transparent w-full px-1 flex flex-col items-center pt-5 md:py-0 relative [z-index:8] md:top-auto mx-auto  text-center  ">
-
-
-        <p
-          class="  text-center mb-5 px-1 font-normal text-base md:text-xl lg:text-2xl text-[#ffffff]  subheading w-fit  ">
-          This Is The Subheadline Above The Main Headline</p>
-
-
-        <h2
-          class="underline underline-offset-2 text-2xl md:text-4xl lg:text-[54px] md:leading-[1.2]  text-[#ffffff]  mb-4 text-center  heading  font-bold ">
-
-          Create Amazing Pages Just Like This! It Starts With The Headline!
-
-        </h2>
-
-
-        <p class=" underline underline-offset-2 text-sm md:text-xl lg:text-xl     call  text-[#ffffff]  ">
-          Call To Action Statement Goes Here!</p>
-        <form action=""
-          class="flex flex-col justify-center w-full px-1 md:w-[95%] space-y-4 md:space-y-2 mb-2 mt-10  items-center">
-
-          <input type="text" placeholder="Your Full Name Here ..."
-            class="outline-none border focus:border-[#1D1D63] rounded-md w-full shadow-sm text-black   px-4 py-3 ">
-          <input type="email" placeholder="Your Email Address Here ..."
-            class="outline-none border focus:border-[#1D1D63] rounded-md w-full shadow-sm text-black   px-4 py-3 ">
-          <button
-            class="cursor-pointer bg-[#1D1D63] hover:bg-[#303083]  text-white border-8 border-transparent  font-bold  text-center rounded-md py-2 md:py-2 md:text-5xl w-full flex btn space-x-2 md:space-x-4  justify-center items-center transition-all  ease-in-out text-2xl ">
-            <i class="md:scale-[3] flex items-center justify-center  "><span class="material-icons  font-extrabold  ">
-                chevron_right
-              </span></i>
-            <p class="">Get Instant Access Now!</p>
-            <i class="md:scale-[3] flex justify-center items-center "><span class="material-icons font-extrabold  ">
-                chevron_left
-              </span></i>
-
-          </button>
-        </form>
-        <p class=" align-baseline text-xs text-center font-medium disclaimer text-[#f7f4f4] ">We respect
-          your
-          privacy,
-          Your
-          email
-          address will
-          never be
-          shared or sold</p>
+      <div id="top-heading" class="h-[65px] bg-[#00A3F5] flex items-center justify-center ">
+        <h1 class="text-lg md:text-2xl text-white ">Application Form</h1>
       </div>
+      <div id="question-cheat-1" class="flex flex-col max-w-[70%] mx-auto mt-10 space-y-4">
 
+        <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium"><span class="text-[#FF0000]">*</span> Which one
+          of these
+          best describes your
+          reason
+          for signing up for this workshop?</h2>
+        <form action="" class="flex flex-col w-full justify-center items-center px-5  ">
+
+          <div id="check-1"
+            class="check-1 mb-3     transition-colors  duration-200 ease-in-out    flex items-center space-x-2  rounded-md w-full">
+
+            <input id="checkbox-1" type="checkbox"
+              class="check cursor-pointer   shadow-none focus:ring-0 focus:outline-none  text-white focus:text-white focus:outline  checked:border-[1px] checked:animate-opacity checked:border-[#00A3F5]  border-[#E5E5E5]  focus:ring-offset-0 rounded-[3px] transition-colors ease-in-out">
+
+            <p id="check-1-text" class="text-sm text-[#6B7991]">I want to learn how to be a copywriter</p>
+          </div>
+
+        </form>
+      </div>
     </div>
-
   </div>
+  <footer id="footer" class="w-full flex flex-col justify-center items-center space-y-5 pb-5">
 
+    <h2 class=" text-base md:text-lg text-[#00A3F5] font-medium"><a href="">Privacy Policy</a></h2>
+    <div class="space-y-3 flex flex-col items-center justify-center popins">
+      <p class="text-sm text-[#091638] font-light">Powered by</p>
+      <h2 class="text-lg md:text-3xl text-[#091638] font-bold">Quizforma</h2>
+      <p class="text-sm font-light">Create your servey now</p>
+    </div>
+  </footer>
 </body>
+<script src="./index.js"></script>
 
 </html>

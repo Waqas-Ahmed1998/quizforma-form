@@ -9,51 +9,13 @@
 }
 body {
 
-  font-family: 'Domine', serif;
-
-}
-
-.subheading {
-  font-family: 'Lato', sans-serif;
-
-
-
-
-
+  font-family: 'Roboto', sans-serif;
 
 
 }
-input {
-  font-family: sans-serif;
-}
-.heading {
+.popins {
+font-family: 'Poppins', sans-serif;
 
-
-  font-family: 'Libre Baskerville', serif;
-
-
-
-
-}
-.call{
-
-
-  font-family: 'Lato', sans-serif;
-
-
-
-}
-.disclaimer {
-  font-family: sans-serif;
-
-
-}
-.btn {
-font-family: sans-serif;
-
-}
-.rgba {
-  background-color: rgba(10, 10, 10, 0.5);
 }
 /* fonts  */
 /*font-family: 'Anton', sans-serif;
