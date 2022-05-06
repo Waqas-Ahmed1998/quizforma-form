@@ -18,40 +18,264 @@
   <title>quiz-form</title>
 </head>
 
-<body class="  bg-[#F4F5F7] ">
-  <div class="flex justify-center w-full p-10 h-screen  ">
-    <div
-      class="w-[670px] bg-white overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-slate-600 rounded-[6px] shadow-lg">
+<body class="  md:bg-[#F4F5F7] ">
+  <div class="flex justify-center w-full md:p-10   ">
+    <div class="w-[670px] relative overflow-hidden bg-white   md:rounded-[6px] md:shadow-lg pb-14">
 
-      <div id="top-heading" class="h-[65px] bg-[#00A3F5] flex items-center justify-center ">
+      <div id="top-heading" class="   w-full h-[64px] bg-[#00A3F5] flex items-center justify-center ">
         <h1 class="text-lg md:text-2xl text-white ">Application Form</h1>
       </div>
-      <div id="question-cheat-1" class="flex flex-col max-w-[70%] mx-auto mt-10 space-y-4">
+      <div class="w-full  overflow-y-scroll   scrollbar-thin scrollbar-thumb-slate-600 scrollbar-track-slate-100 ">
 
-        <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium"><span class="text-[#FF0000]">*</span> Which one
-          of these
-          best describes your
-          reason
-          for signing up for this workshop?</h2>
-        <form action="" class="flex flex-col w-full justify-center items-center px-5  ">
 
-          <div id="check-1"
-            class="check-1 mb-3     transition-colors  duration-200 ease-in-out    flex items-center space-x-2  rounded-md w-full">
+        <!-- question sheet 1  -->
+        <div id="question-sheet-1" class="flex flex-col px-2 md:px-0 md:max-w-[70%] mx-auto mt-10  space-y-3">
 
-            <input id="checkbox-1" type="checkbox"
-              class="check cursor-pointer   shadow-none focus:ring-0 focus:outline-none  text-white focus:text-white focus:outline  checked:border-[1px] checked:animate-opacity checked:border-[#00A3F5]  border-[#E5E5E5]  focus:ring-offset-0 rounded-[3px] transition-colors ease-in-out">
+          <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium"><span class="text-[#FF0000]">*</span> Which
+            one
+            of these
+            best describes your
+            reason
+            for signing up for this workshop?</h2>
+          <form action="" class="flex flex-col w-full justify-center    ">
 
-            <p id="check-1-text" class="text-sm text-[#6B7991]">I want to learn how to be a copywriter</p>
-          </div>
 
-        </form>
+            <div class="space-x-2  flex items-center my-1  pl-3">
+              <input id="checkbox-1" type="checkbox" class="checkbox-styles">
+
+              <p id="check-1-text" class="text-sm text-[#6B7991]">I want to learn how to be a copywriter</p>
+            </div>
+            <div class="space-x-2  flex items-center my-1  pl-3">
+              <input id="checkbox-2" type="checkbox" class="checkbox-styles">
+
+              <p id="check-2-text" class="text-sm text-[#6B7991]">I want better conversions with my copy</p>
+            </div>
+            <div class="space-x-2  flex items-center my-1  pl-3">
+              <input id="checkbox-3" type="checkbox" class="checkbox-styles">
+
+              <p id="check-3-text" class="text-sm text-[#6B7991]">I want to learn how to persent, persuade and close</p>
+            </div>
+            <div class="space-x-2  flex items-center my-1  pl-3">
+              <input id="checkbox-4" type="checkbox" class="checkbox-styles">
+
+              <p id="check-4-text" class="text-sm text-[#6B7991]">I want to learn how to do a workshop</p>
+            </div>
+            <div class="space-x-2  flex items-center my-1  pl-3">
+              <input id="checkbox-5" type="checkbox" class="checkbox-styles">
+
+              <p id="check-5-text" class="text-sm text-[#6B7991]">I want to see what Perry is up to :)</p>
+            </div>
+
+            <!-- question sheet 2  -->
+
+            <div id="question-sheet-2" class="flex flex-col w-full mx-auto my-6 space-y-3">
+
+              <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium"><span class="text-[#FF0000]">*</span> How
+                would
+                you best describe yourself?</h2>
+
+
+
+              <div class="space-x-2  flex items-center my-1 pl-3 ">
+                <input id="sheet-2-checkbox-1" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-2-check-1-text" class="text-sm text-[#6B7991]">I have a fulltime job</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-2-checkbox-2" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-2-check-2-text" class="text-sm text-[#6B7991]">I am a home-based business</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3 ">
+                <input id="sheet-2-checkbox-3" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-2-check-3-text" class="text-sm text-[#6B7991]">I am a mid-size company (5-10 employees)</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1 pl-3 ">
+                <input id="sheet-2-checkbox-4" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-2-check-4-text" class="text-sm text-[#6B7991]">I am an enterprise company (Over 10
+                  employees)
+                </p>
+              </div>
+
+              <div class="space-x-1  flex flex-col  my-2  ">
+
+
+                <p id="sheat-2-check-4-text" class="text-sm text-[#6B7991]">Tell me about your business</p>
+                <textarea id="sheat-2-check-4-textarea" name="" id="" cols="30" rows="2" placeholder="Type your answer"
+                  class="placeholder-[#6B7991]  text-sm mt-1 focus:outline-none focus:ring-0 rounded-md border-[#B5BECE] focus:border-[#B5BECE]"></textarea>
+              </div>
+
+
+            </div>
+            <!-- question sheet 3 -->
+
+            <div id="question-sheet-3" class="flex flex-col w-full mx-auto my-2 space-y-3">
+
+              <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium"><span class="text-[#FF0000]">*</span> When
+                it
+                comes to copywriting</h2>
+
+              <div class="space-x-2  flex items-center my-1 pl-3">
+                <input id="sheet-3-checkbox-1" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-3-check-1-text" class="text-sm text-[#6B7991]">I am just curious about learning the skill
+                </p>
+              </div>
+              <div class="space-x-2  flex items-center my-1 pl-3">
+                <input id="sheet-3-checkbox-2" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-3-check-2-text" class="text-sm text-[#6B7991]">I am very determined to learn copywriting
+                </p>
+              </div>
+              <div class="space-x-2  flex items-center my-1 pl-3">
+                <input id="sheet-3-checkbox-3" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-3-check-3-text" class="text-sm text-[#6B7991]">I am fairly experienced with it</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1 pl-3">
+                <input id="sheet-3-checkbox-4" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-3-check-4-text" class="text-sm text-[#6B7991]">I am a pro with my copy
+                </p>
+              </div>
+
+              <div class="space-x-1  flex flex-col  my-2  ">
+
+
+                <p id="sheat-3-check-4-text" class="text-sm text-[#6B7991]">What do you hope to achieve during this
+                  workshop?</p>
+                <textarea id="sheat-3-check-4-textarea" name="" id="" cols="30" rows="2" placeholder="Type your answer"
+                  class="placeholder-[#6B7991]  text-sm mt-1 focus:outline-none focus:ring-0 rounded-md border-[#B5BECE] focus:border-[#B5BECE]"></textarea>
+              </div>
+
+
+
+            </div>
+
+
+            <!-- question sheet 4 -->
+
+            <div id="question-sheet-4" class="flex  flex-col w-full mx-auto my-4 space-y-3">
+
+              <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium"><span class="text-[#FF0000]"></span>
+                Do you already have an offer ready to sell?</h2>
+
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-4-checkbox-1" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-4-check-1-text" class="text-sm text-[#6B7991]">No I don’t</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-4-checkbox-2" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-4-check-2-text" class="text-sm text-[#6B7991]">I am putting it together as we speak</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-4-checkbox-3" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-4-check-3-text" class="text-sm text-[#6B7991]">Yes, I do… but it’s not converting all that
+                  well</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-4-checkbox-4" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-4-check-4-text" class="text-sm text-[#6B7991]">YUP! and I am selling it like hot cakes!
+                </p>
+              </div>
+
+
+            </div>
+
+            <!-- question sheet 5 -->
+
+            <div id="question-sheet-5" class="flex space-x-1 flex-col w-full mx-auto my-4 space-y-3">
+
+              <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium"><span class="text-[#FF0000]">*</span>
+                Are you 110% committed to doing everything I ask you to do during this class?</h2>
+
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-5-checkbox-1" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-5-check-1-text" class="text-sm text-[#6B7991]">Honestly, probably not…</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-5-checkbox-2" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-5-check-2-text" class="text-sm text-[#6B7991]">I think I absolutely can</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-5-checkbox-3" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-5-check-3-text" class="text-sm text-[#6B7991]">HECK YEAH MAN! I am so ready…</p>
+              </div>
+
+
+
+            </div>
+
+            <!-- question sheet 6 -->
+
+            <div id="question-sheet-6" class="flex flex-col w-full mx-auto my-4 ">
+
+              <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium"><span class="text-[#FF0000]"></span>
+                We’re considering putting on a series of events here in Las Vegas.</h2>
+              <p class="text-sm text-[#9F9F9F] my-3">You will discover the very best in marketing strategies, resources,
+                platforms and automations that will give you a MASSIVE ROI in your business. (We will show you how to do
+                it in less time than you currently spending.) </p>
+              <p class="text-sm text-[#9F9F9F]">Is this something that would interest you? Would you want to hop on a
+                call with us so that we could see how it may fit into your business model?</p>
+              <div class="space-x-2  flex items-center my-1 mt-6  pl-3">
+                <input id="sheet-5-checkbox-1" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-5-check-1-text" class="text-sm text-[#6B7991]">Honestly, probably not…</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-5-checkbox-2" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-5-check-2-text" class="text-sm text-[#6B7991]">I think I absolutely can</p>
+              </div>
+              <div class="space-x-2  flex items-center my-1  pl-3">
+                <input id="sheet-5-checkbox-3" type="checkbox" class="checkbox-styles">
+
+                <p id="sheat-5-check-3-text" class="text-sm text-[#6B7991]">HECK YEAH MAN! I am so ready…</p>
+              </div>
+            </div>
+
+            <!-- personal details fields  -->
+
+            <div id="question-sheet-6" class="flex flex-col w-full mx-auto my-4 ">
+
+              <h2 class="text-base md:text-[20px] text-[#4E4E4E] font-medium">
+                Please tell me how you are :)</h2>
+
+              <div class="space-y-2 w-full flex flex-col  mt-6">
+
+                <input placeholder="First Name" type="text"
+                  class=" text-sm placeholder-[#6B7991] border rounded-[4px] max-w-[450px]  border-[#BEC6D4] focus:outline-none focus:ring-0 focus:border-[#BEC6D4] ">
+                <input placeholder="Last Name" type="text"
+                  class="text-sm placeholder-[#6B7991] border rounded-[4px] max-w-[450px]  border-[#BEC6D4] focus:outline-none focus:ring-0 focus:border-[#BEC6D4]">
+                <input placeholder="Please enter a valid phone number" type="text"
+                  class="text-sm placeholder-[#6B7991]  border rounded-[4px]  max-w-[450px]   border-[#BEC6D4] focus:outline-none focus:ring-0 focus:border-[#BEC6D4]">
+
+              </div>
+
+            </div>
+            <button
+              class="mt-8 max-w-[416px] md:ml-5 bg-[#00A3F5] py-3 px-2 text-center rounded-[5px] transition-colors ease-in-out tracking-wide text-white hover:bg-transparent border hover:border hover:border-[#00A3F5] hover:text-[#00A3F5]">SUBMIT</button>
+          </form>
+        </div>
+
+
       </div>
     </div>
   </div>
-  <footer id="footer" class="w-full flex flex-col justify-center items-center space-y-5 pb-5">
 
-    <h2 class=" text-base md:text-lg text-[#00A3F5] font-medium"><a href="">Privacy Policy</a></h2>
-    <div class="space-y-3 flex flex-col items-center justify-center popins">
+  <footer id="footer" class="w-full flex flex-col justify-center items-center mt-4  pb-5 ">
+
+    <h2 class=" text-base md:text-lg text-[#00A3F5] font-medium mb-8"><a href="">Privacy Policy</a></h2>
+    <div class=" space-y-2 flex flex-col items-center justify-center popins">
       <p class="text-sm text-[#091638] font-light">Powered by</p>
       <h2 class="text-lg md:text-3xl text-[#091638] font-bold">Quizforma</h2>
       <p class="text-sm font-light">Create your survey now</p>

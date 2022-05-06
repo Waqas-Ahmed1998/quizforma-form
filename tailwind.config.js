@@ -20,7 +20,7 @@ module.exports = {
       animation: {
         wiggle: "wiggle 3s ease-in-out infinite",
         slide: "slide 1s ease-in-out infinite",
-        opacity: "opacity 0.5s  ease-in ",
+        opacity: "opacity 0.2s  ease-in ",
       },
     },
     screens: {
@@ -34,4 +34,7 @@ module.exports = {
     require("tailwind-scrollbar"),
     require("@tailwindcss/forms"),
   ],
+  variants: {
+    scrollbar: ["rounded,dark"],
+  },
 };

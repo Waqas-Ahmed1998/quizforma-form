@@ -6,6 +6,9 @@
   .overlay {
     @apply after:absolute   after:top-0 after:left-0 after:w-full after:h-full after:bg-black/20
   }
+  .checkbox-styles  {
+    @apply  cursor-pointer   shadow-none focus:ring-0 focus:outline-none  text-white focus:text-white focus:outline  checked:border-[1px] checked:animate-opacity checked:border-[#00A3F5]  border-[#E5E5E5]  focus:ring-offset-0 rounded-[3px] transition-colors ease-in-out
+  }
 }
 body {
 
@@ -17,6 +20,14 @@ body {
 font-family: 'Poppins', sans-serif;
 
 }
+::placeholder {
+  font-weight: 500;
+}
+textarea{
+  resize: none;
+  overflow:hidden
+}
+
 /* fonts  */
 /*font-family: 'Anton', sans-serif;
 font-family: 'Anybody', cursive;
